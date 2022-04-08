@@ -1,0 +1,9 @@
+USAGE
+    ./miniProgExec file [n | p1 p2]
+DESCRIPTION
+    file    file that contains the list of Facebook connections
+    n       maximum length of the paths
+    pi      name of someone in the file
+
+You can choose between a number as argument ( n ) to see the links at this degree between the peoples in the file example.
+Or you can put 2 names as argument ( p1 p2 ) to see their degree of link.

@@ -1,7 +1,6 @@
 #!usr/bin/env python3
 
 import sys
-import math
 
 def find_friends(friends, y, n):
     person = friends[y][n]
@@ -58,12 +57,9 @@ def fill_adj(to_fill, friends):
                     break
     return to_fill
 
-def print_lists(friends, adj_m):
+def print_lists(friends):
     for i in range(0, len(friends)):
         print(friends[i][0])
-    print('')
-    for i in range(0, len(adj_m)):
-        print(str(adj_m[i]).strip('[]').replace(',', ''), sep = '\n')
 
 def find_next_degrees(matrix, l, c, next_degree):
     for c2 in range(0, len(matrix)):
